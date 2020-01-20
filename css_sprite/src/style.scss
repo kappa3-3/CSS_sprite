@@ -1,0 +1,25 @@
+$image-width: 708px;
+$image-height: 269px;
+$icons-row:5;
+$icons-col:12;
+
+$icon-width: $image-width/$icons-col;
+$icon-height: $image-height/$icons-row;
+$icon-count: $icons-col*$icons-row;
+
+@mixin icon {
+  display: inline-block;
+  background-image: url("css_sprite_example.jpg");
+  width: $icon-width;
+  height: $icon-height;
+}
+
+@for $i from 1 through $icons-row {
+  @for $j from 1 through $icons-col {
+    .icon-#{$i}-#{$j}{
+      @include icon;
+      background-position-x: #{$icon-width*$i};
+      background-position-y: #{$icon-height*$j};
+    }
+  }
+}
