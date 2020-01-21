@@ -12,13 +12,58 @@
    darktable:xmp_version="3"
    darktable:raw_params="0"
    darktable:auto_presets_applied="1"
-   darktable:history_end="0"
-   darktable:iop_order_version="0">
+   darktable:history_end="4"
+   darktable:iop_order_version="5">
    <darktable:masks_history>
     <rdf:Seq/>
    </darktable:masks_history>
    <darktable:history>
-    <rdf:Seq/>
+    <rdf:Seq>
+     <rdf:li
+      darktable:num="0"
+      darktable:operation="colorin"
+      darktable:enabled="1"
+      darktable:modversion="6"
+      darktable:params="gz48eJxjZBgFowABWAbaAaNgwAEAEDgABg=="
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:iop_order="28.0000000000000"
+      darktable:blendop_version="9"
+      darktable:blendop_params="gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRyscOAAdeGQQ="/>
+     <rdf:li
+      darktable:num="1"
+      darktable:operation="colorout"
+      darktable:enabled="1"
+      darktable:modversion="5"
+      darktable:params="gz35eJxjZBgFo4CBAQAEEAAC"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:iop_order="69.0000000000000"
+      darktable:blendop_version="9"
+      darktable:blendop_params="gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRyscOAAdeGQQ="/>
+     <rdf:li
+      darktable:num="2"
+      darktable:operation="gamma"
+      darktable:enabled="1"
+      darktable:modversion="1"
+      darktable:params="0000000000000000"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:iop_order="77.0000000000000"
+      darktable:blendop_version="9"
+      darktable:blendop_params="gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRyscOAAdeGQQ="/>
+     <rdf:li
+      darktable:num="3"
+      darktable:operation="flip"
+      darktable:enabled="1"
+      darktable:modversion="2"
+      darktable:params="ffffffff"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:iop_order="16.0000000000000"
+      darktable:blendop_version="9"
+      darktable:blendop_params="gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRyscOAAdeGQQ="/>
+    </rdf:Seq>
    </darktable:history>
   </rdf:Description>
  </rdf:RDF>

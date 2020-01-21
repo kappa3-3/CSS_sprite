@@ -1,17 +1,20 @@
 import React from 'react';
-// import Icon from "./Icon";
 import './App.css';
 
 export default function App() {
-    const icons = [];
-    for (let i=1; i<=5; i++) {
-        for(let j=1; j<=12; j++)
-        icons.push(<div className={`icon-${i}-${j}`} key={`icon-${i}-${j}`}/>)
-    }
-    console.log(icons);
+
+    const renderSprite = (rows,columns) => {
+        const icons = [];
+        for (let i=1; i<=rows; i++) {
+            for(let j=1; j<=columns; j++)
+                icons.push(<div className={`icon-${i}-${j}`} key={`icon-${i}-${j}`}/>)
+        }
+        return icons;
+    };
+
   return (
       <section className='icon-container'>
-          {icons}
+          {renderSprite(5,12)}
       </section>
 
   );
